@@ -58,12 +58,12 @@ function calcular() {
 
 function returnAnswer(v) {
     if (v == 1) {
-        alert(`1 Você perdeu ${tempoVida} minutos de vida hoje.`);
+        alert(`Você perdeu ${tempoVida} minutos de vida hoje.`);
     }
     if (v == 2) {
         horasVida = parseInt(tempoVida / 60);
         minutosVida = tempoVida % 60;
-        alert(`2 Você perdeu ${horasVida} horas e ${minutosVida} minutos de vida hoje.`);
+        alert(`Você perdeu ${horasVida} horas e ${minutosVida} minutos de vida hoje.`);
     }
     if (v == 3) {
         horasVida = parseInt(tempoVida / 60);
@@ -74,6 +74,6 @@ function returnAnswer(v) {
             } while (horasVida > 23)
         }
         minutosVida = parseInt(horasVida % 60);
-        alert(`3 Você perdeu ${diasVida} dias, ${horasVida} horas e ${minutosVida} minutos de vida hoje.`);
+        alert(`Você perdeu ${diasVida} dias, ${horasVida} horas e ${minutosVida} minutos de vida hoje.`);
     }
 }
