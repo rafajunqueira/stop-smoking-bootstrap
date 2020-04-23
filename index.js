@@ -21,21 +21,21 @@ function plusOne(e) {
     }
 }
 
-function plusTwo(e) {
-    let numCig = document.getElementById("num-cig");
-    if (isNaN(numCig.value) || numCig.value == '') {
-        numCig.value = 2;
-    } else {
-        numCig.value = parseInt(numCig.value) + 2;
-    }
-}
-
 function plusFive(e) {
     let numCig = document.getElementById("num-cig");
     if (isNaN(numCig.value) || numCig.value == '') {
         numCig.value = 5;
     } else {
         numCig.value = parseInt(numCig.value) + 5;
+    }
+}
+
+function plusTen(e) {
+    let numCig = document.getElementById("num-cig");
+    if (isNaN(numCig.value) || numCig.value == '') {
+        numCig.value = 10;
+    } else {
+        numCig.value = parseInt(numCig.value) + 10;
     }
 }
 
