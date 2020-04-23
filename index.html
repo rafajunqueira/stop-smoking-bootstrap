@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="header"><p id="website-title">Cada cigarro diminui a sua expectativa de vida em 11 minutos.</p></div>
+        <p class="text-num-cig">Número de cigarros fumados por dia:</p>
+        <div id="content">
+            <input class="input-text" onkeypress="isInputNumber(event)" value=0 type="text" name="numero-cigarros"
+                id="num-cig">
+            <input type="button" id="buttonCalc" class="form" onclick="calcular()" value="Calcular">
+        </div>
+        <div class="btns-add-container space-evenly">
+            <button type="submit" onclick="plusOne(this)"
+                class="btn-add" id="btn-1">+ 1</button>
+            <button type="submit" onclick="plusTwo(this)"
+                class="btn-add" id="btn-2">+ 2</button>
+            <button type="submit" onclick="plusFive(this)"
+                class="btn-add" id="btn-5">+ 5</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
