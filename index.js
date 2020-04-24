@@ -13,7 +13,7 @@ function isInputNumber(evt) {
 }
 
 function plusOne(e) {
-    let numCig = document.getElementById("num-cig");
+    let numCig = document.getElementById("inputNumeroCigarros");
     if (isNaN(numCig.value) || numCig.value == '') {
         numCig.value = 1;
     } else {
@@ -22,7 +22,7 @@ function plusOne(e) {
 }
 
 function plusFive(e) {
-    let numCig = document.getElementById("num-cig");
+    let numCig = document.getElementById("inputNumeroCigarros");
     if (isNaN(numCig.value) || numCig.value == '') {
         numCig.value = 5;
     } else {
@@ -31,7 +31,7 @@ function plusFive(e) {
 }
 
 function plusTen(e) {
-    let numCig = document.getElementById("num-cig");
+    let numCig = document.getElementById("inputNumeroCigarros");
     if (isNaN(numCig.value) || numCig.value == '') {
         numCig.value = 10;
     } else {
@@ -40,7 +40,7 @@ function plusTen(e) {
 }
 
 function calcular() {
-    var numCigDia = document.getElementById("num-cig").value;
+    var numCigDia = document.getElementById("inputNumeroCigarros").value;
     tempoVida = numCigDia * 11;
 
     if (tempoVida < 59) {
